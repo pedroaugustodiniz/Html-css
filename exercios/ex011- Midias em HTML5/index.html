@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em varios dispositivos ou simplismente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexévil">
+    </picture>
+    <p class="cor">Usando a Tag PICTURE podemos dentro dela colocar a Tag IMG e a Tag SOURCE assim configurando nossa imagem
+        <br>Dentro de SOURCE em media optar por MAX ou inves de min.
+        <br>colocar sempre 50px a mais da imagem para não dar barra de rolamento
+        <br>Sempre colocar em ordem exemplo FOTO GRANDE MEDIA PEQUENA.
+    </p>
+    <h1>Reproduzindo Audio</h1>
+    <audio preload="metadata" controls>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+        <p>Infelizmente seu navagor não suporta tipos de audio <a href="midia/guanacast-33.mp3" type="audio/mpeg">BAIXE AQUI SEU ÁUDIO</a> </p>
+    </audio>
+    <p class="cor">Para gerar audio umas as Tags &lt;AUDIO&gt; dentro de audio colocamos a Tag  &lt;SOURCE:SRC&gt; dentro do SRC colocamos a midia e dentro de TYPE colocamos a saida type exemplo( MP3, usamos audio/mpeg)
+    Dentro de audio usamos o PRELOAD e CONTROLS.
+    </p>
+</body>
+</html>

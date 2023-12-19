@@ -1,0 +1,22 @@
+@font-face {
+    font-family: love;
+    src: url(../fonts/love\ story\ ttf.ttf ) format(truetype); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: ballon;
+    src: url(../fonts/Balloon\ Party.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'love';
+}
+
+body {
+    font-family: 'ballon';
+    font-size: 30px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Links externos</h1>
+    <p>Você pode acessar o  <a href="https://www.youtube.com/" target="_blank" rel="external">youtube</a></p>
+    <p>Você pode acessar esse video <a href="https://www.youtube.com/watch?v=8NL2IjOQUcE" target="_blank" rel="external">Fallen humilhando a heroic</a></p>
+    <p>Cruzeiro <a href="https://www.youtube.com/watch?v=tN0UmYQWMfg" target="_self" rel="external">Bastidores</a></p>
+    <h2 class="cor">Usando a Tag A podemos adicionar links externos com as Tags  HREF(onde vai o link desejado) TARGET E REL podemos configurar os links</h2>
+    <h1>Links internos</h1>
+    <p>Vamos acessar nossa  <a href="pag002.html" target="_self">segunda pagina</a></p>
+    <h2 class="cor">Usando a Tag A podemos também acessar links internos dentro da página do nosso codigo.</h2>
+    <h1>Links internos com caminhos</h1>
+    <p><a href="pag003/pag003.html" target="_self">acessando a terceira página</a></p>
+    <h2 class="cor">Para criar links internos em outra pasta usamos as mesmas tags so que com o indereço do HREF diferente
+    <br>Exemplo: pag003/pag003.html, sempre colocar o indereço direto da pasta.
+    </h2>
+    <h2 class="cor">Na outra pasta para voltar nas demais precisamos usar o ../ e o endereço da pasta onde deseja voltar.</h2>
+    <h1>Links para Download</h1>
+    <ul>
+        <li><a href="livro/meulivro.pdf" download="meulivro.pdf" type="application/pdf">Baixar a aula 10 em pdf</a></li>
+        <li><a href="livro/meulivro.zip" download="meulivro.zip" type="application/zip">Baixar a aula 10 em .zip</a></li>
+    </ul>
+    <h2 class="cor">Podemos fazer links para download adicionando as Tags DOWNLOAD(meulivro.zip)</h2>
+</body>
+</html>
+
