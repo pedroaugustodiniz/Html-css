@@ -1,0 +1,21 @@
+@charset 'UTF-8';
+
+/* ESTILO PARA IMPRESSORAS */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-size: 1.3em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    padding: 12px;
+}
+
+menu {
+    display: none;
+}
