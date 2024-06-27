@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+            </span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+        <article>
+            <h2>Testando media query</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae nobis ex, id perferendis qui magnam similique iste. Repellat quis ducimus odit laudantium dignissimos, hic vero voluptate est voluptas, sequi esse! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat adipisci ad, itaque quas explicabo expedita magnam, nulla eveniet necessitatibus sequi consectetur a ea inventore voluptatem nisi libero ullam unde quae.</p>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla odio aliquid ipsa similique impedit iste quaerat, rerum, culpa labore doloremque ab? Pariatur tempora quibusdam fugit asperiores distinctio dicta, voluptates quam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque officia minima vel, cumque tempora, voluptate voluptatibus tempore deleniti excepturi enim sed. Porro laborum molestias nesciunt aperiam quo ipsa vitae harum!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem voluptate earum facere eligendi corrupti, hic, nobis repellendus atque iusto iste inventore provident vitae quam non deserunt fuga, voluptatibus aut repudiandae.
+            </p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+            
+        }
+    </script>
+</body>
+</html>
